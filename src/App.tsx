@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import JsxBasics from './pages/jsx-basics'
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -17,6 +19,9 @@ function App() {
         </a>
       </div>
       <h3>This is Grantyy, doing code per day using React + Vite :D</h3>
+
+      
+      <JsxBasics />
     </>
   )
 }
