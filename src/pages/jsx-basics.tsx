@@ -31,7 +31,7 @@ const getGreeting = (user: {name: string, lastName: string}) => {
 
     return (
         <>
-            <h1>Hi I'm {name}, I'm {user.age} years old, {user.isStudent ? "I'm a student" : "I'm not a student"}</h1>
+            <h1>This is testing for JSX basics,</h1>
 
             <h2>Formatted Name: {formatName(user)}</h2>
 

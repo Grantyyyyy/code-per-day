@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import JsxBasics from './pages/jsx-basics'
+import ProfileCard from './components/ProfileCard'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
 
       
       <JsxBasics />
+      <ProfileCard />
     </>
   )
 }
